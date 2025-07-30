@@ -1,0 +1,13 @@
+prefix=/Users/pavanchanduri/My Content/Python_Course/venv
+exec_prefix=/Users/pavanchanduri/My Content/Python_Course/venv
+libdir=/Users/pavanchanduri/My Content/Python_Course/venv/lib
+sharedlibdir=/Users/pavanchanduri/My Content/Python_Course/venv/lib
+includedir=/Users/pavanchanduri/My Content/Python_Course/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
